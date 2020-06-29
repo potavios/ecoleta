@@ -1,0 +1,20 @@
+{
+    "window.zoomLevel": 0,
+
+    "files.associations": {
+        "*.html": "njk"
+    },
+
+    "emmet.includeLanguages": {
+        "njk": "html"
+    },
+
+   "vsicons.associations.files": [
+       { "icon": "nunjucks", "extensions": ["html"], "format": "svg"}
+   ],
+
+    "material-icon-theme.files.associations": {
+        "*.html": "nunjucks"
+    }
+
+}

@@ -42,14 +42,10 @@ function getCities(event) {
         .then(cities => {
             citySelect
 
-
             for (city of cities) {
                 citySelect.innerHTML += `<option value="${city.nome}">${city.nome}</option>`
             }
             citySelect.disabled = false
-
-
-
         })
 }
 
@@ -60,7 +56,6 @@ document
 
 
 // Items de Coleta
-
 const itemsToCollect = document.querySelectorAll(".items-grid li")
 
 for (const item of itemsToCollect) {
